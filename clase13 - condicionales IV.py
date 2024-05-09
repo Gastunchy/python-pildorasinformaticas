@@ -48,4 +48,4 @@ canasta = ["manzana", "naranja", "banana", "pera", "mandarina"]
 if fruta in canasta:
     print(f"Elegiste: {fruta}")
 else:
-    print(f"{fruta} no esta en la canasta")
+    print(f"{fruta}: no esta en la canasta")
