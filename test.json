@@ -1,0 +1,5 @@
+{
+    "username": "Informe de finalización de tarjeta",
+    "color": 624876,
+    "content": "- {{issue.assignee.displayName}} finalizó una tarjeta\n ID: {{issue.key}}\n Proyecto: {{issue.project.name}}\n Comentario: {{comment.visibility.value}}{{last.comment.body}}\n Commit: {{issue.commit.url}}{{issue.commit.hash}}{{issue.commit.shortHash}}{{issue.commit.message}}{{issue.commit.message}}{{issue.commit.url}}{{issue.commit.isMergeCommit}}{{issue.commit.repository}}{{issue.commit.repository.name}}{{issue.commit.repository.url}}\n\nMas informacion:\n{{issue.url}}"
+}
