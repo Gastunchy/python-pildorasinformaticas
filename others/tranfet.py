@@ -1,3 +1,6 @@
+'''
+Transferencia de datos de un bucket a otro sin copiar las carpetas, solo los archivos contenidos
+'''
 from google.cloud import storage
 
 def copy_files_to_folder(source_bucket_name, destination_bucket_name, destination_folder):
