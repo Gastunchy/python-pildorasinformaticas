@@ -27,12 +27,12 @@ class coche():
 miCoche = coche() # aqui se esta instanciando a una clase
 
 # Usando la nomenclatura del punto se accede a la propiedad
-print("El largo del coche es: ",miCoche.largoChasis)
-print("El coche tiene: ",miCoche.ruedas, "ruedas")
-print("Status de enmarcha antes: ",miCoche.enmarcha)
+print("El largo del coche es: ", miCoche.largoChasis)
+print("El coche tiene: ", miCoche.ruedas, "ruedas")
+print("Status de enmarcha antes: ", miCoche.enmarcha)
 print(miCoche.estado()) # Imprimir estado basado en un comportamiento
 miCoche.arrancar() # este comportamiento cambia el estado de 'enmarcha'
-print("Status de enmarcha antes: ",miCoche.enmarcha)
+print("Status de enmarcha antes: ", miCoche.enmarcha)
 print(miCoche.estado()) # Imprimir estado basado en un comportamiento
 
 # Resumen
